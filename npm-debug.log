@@ -1,0 +1,268 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/latentflip/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/latentflip/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'child_process',
+1 verbose cli   'fs',
+1 verbose cli   'path',
+1 verbose cli   'find-requires',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json install-required-modules@1.0.0 No description
+5 warn package.json install-required-modules@1.0.0 No repository field.
+6 warn package.json install-required-modules@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'child_process', null ]
+9 verbose cache add name=undefined spec="child_process" args=["child_process",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'child_process',
+10 verbose parsed url   path: 'child_process',
+10 verbose parsed url   href: 'child_process' }
+11 verbose cache add [ 'fs', null ]
+12 verbose cache add name=undefined spec="fs" args=["fs",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'fs',
+13 verbose parsed url   path: 'fs',
+13 verbose parsed url   href: 'fs' }
+14 verbose cache add [ 'path', null ]
+15 verbose cache add name=undefined spec="path" args=["path",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'path',
+16 verbose parsed url   path: 'path',
+16 verbose parsed url   href: 'path' }
+17 verbose cache add [ 'find-requires@^0.2.2', null ]
+18 verbose cache add name=undefined spec="find-requires@^0.2.2" args=["find-requires@^0.2.2",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'find-requires@^0.2.2',
+19 verbose parsed url   path: 'find-requires@^0.2.2',
+19 verbose parsed url   href: 'find-requires@^0.2.2' }
+20 verbose cache add name="find-requires" spec="^0.2.2" args=["find-requires","^0.2.2"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^0.2.2',
+21 verbose parsed url   path: '^0.2.2',
+21 verbose parsed url   href: '^0.2.2' }
+22 verbose addNamed [ 'find-requires', '^0.2.2' ]
+23 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+24 silly lockFile 4845fa97-child-process child_process
+25 verbose lock child_process /Users/latentflip/.npm/4845fa97-child-process.lock
+26 silly lockFile 3f4bb586-fs fs
+27 verbose lock fs /Users/latentflip/.npm/3f4bb586-fs.lock
+28 silly lockFile 3150ecd5-path path
+29 verbose lock path /Users/latentflip/.npm/3150ecd5-path.lock
+30 silly lockFile af72a0aa-find-requires-0-2-2 find-requires@^0.2.2
+31 verbose lock find-requires@^0.2.2 /Users/latentflip/.npm/af72a0aa-find-requires-0-2-2.lock
+32 silly lockFile 4845fa97-child-process child_process
+33 silly lockFile 4845fa97-child-process child_process
+34 silly lockFile 3f4bb586-fs fs
+35 silly lockFile 3f4bb586-fs fs
+36 silly addNameRange { name: 'find-requires',
+36 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+36 silly addNameRange   hasData: false }
+37 silly lockFile 3150ecd5-path path
+38 silly lockFile 3150ecd5-path path
+39 verbose addNamed [ 'child_process', '' ]
+40 verbose addNamed [ null, '*' ]
+41 silly lockFile 512a7ef6-child-process child_process@
+42 verbose lock child_process@ /Users/latentflip/.npm/512a7ef6-child-process.lock
+43 verbose addNamed [ 'fs', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile a107b96b-fs fs@
+46 verbose lock fs@ /Users/latentflip/.npm/a107b96b-fs.lock
+47 verbose addNamed [ 'path', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile 9741fa74-path path@
+50 verbose lock path@ /Users/latentflip/.npm/9741fa74-path.lock
+51 silly addNameRange { name: 'child_process', range: '*', hasData: false }
+52 silly addNameRange { name: 'fs', range: '*', hasData: false }
+53 verbose request where is /child_process
+54 verbose request registry https://nlfpm.andyet.net/
+55 verbose request id 799f0b28d95c38f2
+56 verbose url raw /child_process
+57 verbose url resolving [ 'https://nlfpm.andyet.net/', './child_process' ]
+58 verbose url resolved https://nlfpm.andyet.net/child_process
+59 verbose request where is https://nlfpm.andyet.net/child_process
+60 info trying registry request attempt 1 at 23:30:07
+61 http GET https://nlfpm.andyet.net/child_process
+62 verbose request where is /fs
+63 verbose request registry https://nlfpm.andyet.net/
+64 verbose url raw /fs
+65 verbose url resolving [ 'https://nlfpm.andyet.net/', './fs' ]
+66 verbose url resolved https://nlfpm.andyet.net/fs
+67 verbose request where is https://nlfpm.andyet.net/fs
+68 info trying registry request attempt 1 at 23:30:07
+69 http GET https://nlfpm.andyet.net/fs
+70 silly addNameRange { name: 'path', range: '*', hasData: false }
+71 verbose request where is /find-requires
+72 verbose request registry https://nlfpm.andyet.net/
+73 verbose url raw /find-requires
+74 verbose url resolving [ 'https://nlfpm.andyet.net/', './find-requires' ]
+75 verbose url resolved https://nlfpm.andyet.net/find-requires
+76 verbose request where is https://nlfpm.andyet.net/find-requires
+77 info trying registry request attempt 1 at 23:30:07
+78 verbose etag "75V9OF228J61KE8KAIDTQI650"
+79 http GET https://nlfpm.andyet.net/find-requires
+80 verbose request where is /path
+81 verbose request registry https://nlfpm.andyet.net/
+82 verbose url raw /path
+83 verbose url resolving [ 'https://nlfpm.andyet.net/', './path' ]
+84 verbose url resolved https://nlfpm.andyet.net/path
+85 verbose request where is https://nlfpm.andyet.net/path
+86 info trying registry request attempt 1 at 23:30:07
+87 http GET https://nlfpm.andyet.net/path
+88 http 404 https://nlfpm.andyet.net/child_process
+89 verbose headers { 'content-type': 'application/json; charset=utf-8',
+89 verbose headers   'cache-control': 'no-cache',
+89 verbose headers   'content-encoding': 'gzip',
+89 verbose headers   vary: 'accept-encoding',
+89 verbose headers   date: 'Fri, 12 Dec 2014 23:30:08 GMT',
+89 verbose headers   'transfer-encoding': 'chunked' }
+90 silly registry.get cb [ 404,
+90 silly registry.get   { 'content-type': 'application/json; charset=utf-8',
+90 silly registry.get     'cache-control': 'no-cache',
+90 silly registry.get     'content-encoding': 'gzip',
+90 silly registry.get     vary: 'accept-encoding',
+90 silly registry.get     date: 'Fri, 12 Dec 2014 23:30:08 GMT',
+90 silly registry.get     'transfer-encoding': 'chunked' } ]
+91 silly lockFile 512a7ef6-child-process child_process@
+92 silly lockFile 512a7ef6-child-process child_process@
+93 http 304 https://nlfpm.andyet.net/find-requires
+94 silly registry.get cb [ 304,
+94 silly registry.get   { 'cache-control': 'no-cache',
+94 silly registry.get     date: 'Fri, 12 Dec 2014 23:30:08 GMT' } ]
+95 verbose etag https://nlfpm.andyet.net/find-requires from cache
+96 silly addNameRange number 2 { name: 'find-requires',
+96 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+96 silly addNameRange   hasData: true }
+97 silly addNameRange versions [ 'find-requires',
+97 silly addNameRange   [ '0.1.0',
+97 silly addNameRange     '0.1.1',
+97 silly addNameRange     '0.1.2',
+97 silly addNameRange     '0.1.3',
+97 silly addNameRange     '0.1.4',
+97 silly addNameRange     '0.1.5',
+97 silly addNameRange     '0.1.6',
+97 silly addNameRange     '0.2.0',
+97 silly addNameRange     '0.2.1',
+97 silly addNameRange     '0.2.2' ] ]
+98 verbose addNamed [ 'find-requires', '0.2.2' ]
+99 verbose addNamed [ '0.2.2', '0.2.2' ]
+100 silly lockFile f1de32f7-find-requires-0-2-2 find-requires@0.2.2
+101 verbose lock find-requires@0.2.2 /Users/latentflip/.npm/f1de32f7-find-requires-0-2-2.lock
+102 silly lockFile f1de32f7-find-requires-0-2-2 find-requires@0.2.2
+103 silly lockFile f1de32f7-find-requires-0-2-2 find-requires@0.2.2
+104 silly lockFile af72a0aa-find-requires-0-2-2 find-requires@^0.2.2
+105 silly lockFile af72a0aa-find-requires-0-2-2 find-requires@^0.2.2
+106 http 200 https://nlfpm.andyet.net/fs
+107 silly registry.get cb [ 200,
+107 silly registry.get   { 'content-type': 'application/json; charset=utf-8',
+107 silly registry.get     etag: '"CDIOOLXWV6YDPT0MZ5ZS01AXF"',
+107 silly registry.get     'cache-control': 'no-cache',
+107 silly registry.get     'content-encoding': 'gzip',
+107 silly registry.get     vary: 'accept-encoding',
+107 silly registry.get     date: 'Fri, 12 Dec 2014 23:30:08 GMT',
+107 silly registry.get     'transfer-encoding': 'chunked' } ]
+108 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+109 silly addNameRange versions [ 'fs', [ '0.0.0', '0.0.2' ] ]
+110 verbose addNamed [ 'fs', '0.0.2' ]
+111 verbose addNamed [ '0.0.2', '0.0.2' ]
+112 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+113 verbose lock fs@0.0.2 /Users/latentflip/.npm/afea0479-fs-0-0-2.lock
+114 silly lockFile 06546e7d-nlfpm-andyet-net-fs-fs-0-0-2-tgz https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz
+115 verbose lock https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz /Users/latentflip/.npm/06546e7d-nlfpm-andyet-net-fs-fs-0-0-2-tgz.lock
+116 verbose addRemoteTarball [ 'https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz',
+116 verbose addRemoteTarball   'e1f244ef3933c1b2a64bd4799136060d0f5914f8' ]
+117 info retry fetch attempt 1 at 23:30:08
+118 verbose fetch to= /var/folders/r8/0k44d06s6t3cjsbpspzl4hsm0000gn/T/npm-28912-puHFuPa7/nlfpm.andyet.net/fs/-/fs-0.0.2.tgz
+119 http GET https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz
+120 http 200 https://nlfpm.andyet.net/path
+121 silly registry.get cb [ 200,
+121 silly registry.get   { 'content-type': 'application/json; charset=utf-8',
+121 silly registry.get     etag: '"D35I2J70IL52UZWZ0X2FGFXC8"',
+121 silly registry.get     'cache-control': 'no-cache',
+121 silly registry.get     'content-encoding': 'gzip',
+121 silly registry.get     vary: 'accept-encoding',
+121 silly registry.get     date: 'Fri, 12 Dec 2014 23:30:08 GMT',
+121 silly registry.get     'transfer-encoding': 'chunked' } ]
+122 silly addNameRange number 2 { name: 'path', range: '*', hasData: true }
+123 silly addNameRange versions [ 'path', [ '0.4.9' ] ]
+124 verbose addNamed [ 'path', '0.4.9' ]
+125 verbose addNamed [ '0.4.9', '0.4.9' ]
+126 silly lockFile f9561765-path-0-4-9 path@0.4.9
+127 verbose lock path@0.4.9 /Users/latentflip/.npm/f9561765-path-0-4-9.lock
+128 silly lockFile 567067eb-m-andyet-net-path-path-0-4-9-tgz https://nlfpm.andyet.net/path/-/path-0.4.9.tgz
+129 verbose lock https://nlfpm.andyet.net/path/-/path-0.4.9.tgz /Users/latentflip/.npm/567067eb-m-andyet-net-path-path-0-4-9-tgz.lock
+130 verbose addRemoteTarball [ 'https://nlfpm.andyet.net/path/-/path-0.4.9.tgz',
+130 verbose addRemoteTarball   '380c68d01273e43f9368d7ad50fee5e3e8d477f0' ]
+131 info retry fetch attempt 1 at 23:30:08
+132 verbose fetch to= /var/folders/r8/0k44d06s6t3cjsbpspzl4hsm0000gn/T/npm-28912-puHFuPa7/nlfpm.andyet.net/path/-/path-0.4.9.tgz
+133 http GET https://nlfpm.andyet.net/path/-/path-0.4.9.tgz
+134 http 200 https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz
+135 silly lockFile 06546e7d-nlfpm-andyet-net-fs-fs-0-0-2-tgz https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz
+136 silly lockFile 06546e7d-nlfpm-andyet-net-fs-fs-0-0-2-tgz https://nlfpm.andyet.net/fs/-/fs-0.0.2.tgz
+137 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+138 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+139 silly lockFile a107b96b-fs fs@
+140 silly lockFile a107b96b-fs fs@
+141 http 200 https://nlfpm.andyet.net/path/-/path-0.4.9.tgz
+142 silly lockFile 567067eb-m-andyet-net-path-path-0-4-9-tgz https://nlfpm.andyet.net/path/-/path-0.4.9.tgz
+143 silly lockFile 567067eb-m-andyet-net-path-path-0-4-9-tgz https://nlfpm.andyet.net/path/-/path-0.4.9.tgz
+144 silly lockFile f9561765-path-0-4-9 path@0.4.9
+145 silly lockFile f9561765-path-0-4-9 path@0.4.9
+146 silly lockFile 9741fa74-path path@
+147 silly lockFile 9741fa74-path path@
+148 error 404 404 Not Found: child_process
+148 error 404
+148 error 404 'child_process' is not in the npm registry.
+148 error 404 You should bug the author to publish it
+148 error 404 It was specified as a dependency of 'install-required-modules'
+148 error 404
+148 error 404 Note that you can also install from a
+148 error 404 tarball, folder, or http url, or git url.
+149 error System Darwin 14.0.0
+150 error command "/Users/latentflip/.nvm/v0.10.33/bin/node" "/Users/latentflip/.nvm/v0.10.33/bin/npm" "install" "child_process" "fs" "path" "find-requires" "--save"
+151 error cwd /Users/latentflip/Code/github/latentflip/install-required-modules
+152 error node -v v0.10.33
+153 error npm -v 1.4.28
+154 error code E404
+155 verbose exit [ 1, true ]

@@ -1,0 +1,11 @@
+{
+  "name": "install-requires",
+  "description": "CLI tool that npm install's the required npm modules from a given file.",
+  "version": "1.0.0",
+  "bin": "./install-requires",
+  "dependencies": {
+    "find-requires": "^0.2.2"
+  },
+  "license": "ISC",
+  "main": "index.js"
+}
