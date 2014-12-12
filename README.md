@@ -1,13 +1,13 @@
-# install-requires
+# install-deps
 
 A command line tool that will install the npm modules required from a given file.
 
 ## Install
 
-`npm install -g install-requires`
+`npm install -g install-deps`
 
 ## Usage
 
-`install-requires path/to/file.js --save #or any other npm install arguments`
+`install-deps path/to/file.js --save #or any other npm install arguments`
 
-From vim you can do: `:!install-requires % --save`
+From vim you can do: `:!install-deps % --save`
