@@ -1,8 +1,8 @@
 {
-  "name": "install-requires",
+  "name": "install-deps",
   "description": "CLI tool that npm install's the required npm modules from a given file.",
   "version": "1.0.0",
-  "bin": "./install-requires",
+  "bin": "./install-deps",
   "dependencies": {
     "find-requires": "^0.2.2"
   },
