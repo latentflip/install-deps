@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "bin": "./install-requires",
   "dependencies": {
+    "builtins": "^1.0.3",
     "find-requires": "^0.2.2"
   },
   "license": "ISC",
