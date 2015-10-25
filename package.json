@@ -4,6 +4,7 @@
   "version": "1.0.1",
   "bin": "./install-deps",
   "dependencies": {
+    "builtins": "^1.0.3",
     "find-requires": "^0.2.2"
   },
   "license": "ISC",

@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-var repl = require('repl');
-var builtins = repl._builtinLibs
-builtins.push('repl');
+var builtins = require('builtins');
 
 var cp = require('child_process');
 var fs = require('fs');
